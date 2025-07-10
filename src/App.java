@@ -38,13 +38,9 @@ System.out.println("Caja contiene: " + cajaDeTexto.getContenido());
 Caja<Integer> cajaDeNumero = new Caja<>(123);
 System.out.println("Caja contiene: " + cajaDeNumero.getContenido());
 
-Caja<String> cajaDeTexto1 = new Caja<>("hola");
-cajaDeTexto1.setContenido("hola2");
+Caja<String> cajaDeTexto1 = new Caja<>("Prueba01");
+cajaDeTexto1.setContenido("Prueba02");
 System.out.println("Caja contiene: " + cajaDeTexto1.getContenido());
 
-Caja<Integer> cajaDeNumero1 = new Caja<>(456);
-cajaDeNumero1.setContenido(789);
-cajaDeNumero1.vaciar();
-System.out.println("Caja contiene: " + cajaDeNumero1.getContenido());   
-// ya solucione el conflicto de la caja de texto y numero en la rama main
+
 }}  
