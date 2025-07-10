@@ -42,4 +42,9 @@ Caja<String> cajaDeTexto1 = new Caja<>("hola");
 cajaDeTexto1.setContenido("hola2");
 System.out.println("Caja contiene: " + cajaDeTexto1.getContenido());
 
+Caja<Integer> cajaDeNumero1 = new Caja<>(456);
+cajaDeNumero1.setContenido(789);
+cajaDeNumero1.vaciar();
+System.out.println("Caja contiene: " + cajaDeNumero1.getContenido());   
+// Esto es un comentario para ver el uso de git conflic.
 }}
