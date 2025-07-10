@@ -37,7 +37,7 @@ System.out.println("Caja contiene: " + cajaDeTexto.getContenido());
 
 Caja<Integer> cajaDeNumero = new Caja<>(123);
 System.out.println("Caja contiene: " + cajaDeNumero.getContenido());
-     
+
 Caja<String> cajaDeTexto1 = new Caja<>("hola");
 cajaDeTexto1.setContenido("hola2");
 System.out.println("Caja contiene: " + cajaDeTexto1.getContenido());
@@ -47,4 +47,4 @@ cajaDeNumero1.setContenido(789);
 cajaDeNumero1.vaciar();
 System.out.println("Caja contiene: " + cajaDeNumero1.getContenido());   
 // Esto es un comentario para ver el uso de git conflic.
-}}
+}}  
