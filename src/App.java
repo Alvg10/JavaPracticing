@@ -42,4 +42,10 @@ Caja<String> cajaDeTexto1 = new Caja<>("hola");
 cajaDeTexto1.setContenido("hola2");
 System.out.println("Caja contiene: " + cajaDeTexto1.getContenido());
 
+Caja<Integer> cajaDeNumero1 = new Caja<>(122);
+cajaDeNumero1.setContenido(439);
+cajaDeNumero1.vaciar();
+System.out.println("Caja contiene: " + cajaDeNumero1.getContenido());   
+// Este es el conflicto ya generado.
+
 }}
